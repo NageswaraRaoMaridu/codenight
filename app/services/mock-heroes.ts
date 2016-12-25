@@ -1,7 +1,7 @@
 /**
  * Created by nrmaridu on 20/12/16.
  */
-import { Hero } from './hero';
+import { Hero } from '../beans/hero';
 
 export var HEROES: Hero[] = [
     {id: 11, name: 'Mr. Nice'},

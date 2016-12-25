@@ -1,7 +1,7 @@
 /**
  * Created by nrmaridu on 20/12/16.
  */
-import { Hero } from './hero';
+import { Hero } from '../beans/hero';
 import { HEROES } from './mock-heroes';
 import { Injectable } from '@angular/core';
 

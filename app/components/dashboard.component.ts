@@ -4,14 +4,14 @@
 
 import { Component, OnInit } from '@angular/core';
 
-import { Hero } from './hero';
-import { HeroService } from './hero.service';
+import { Hero } from '../beans/hero';
+import { HeroService } from '../services/hero.service';
 
 @Component({
     moduleId: module.id,
     selector: 'my-dashboard',
-    templateUrl: 'dashboard.template.html',
-    styleUrls: [ 'dashboard.component.css' ]
+    templateUrl: '../templates/dashboard.template.html',
+    styleUrls: [ '../styles/dashboard.component.css' ]
 })
 export class DashboardComponent implements OnInit {
 

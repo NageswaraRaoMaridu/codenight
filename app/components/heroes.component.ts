@@ -4,14 +4,14 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
-import { Hero } from './hero';
-import { HeroService } from './hero.service';
+import { Hero } from '../beans/hero';
+import { HeroService } from '../services/hero.service';
 
 @Component({
     moduleId: module.id,
     selector: 'my-heroes',
-    templateUrl: 'heroes.template.html',
-    styleUrls: [ 'heroes.component.css' ]
+    templateUrl: '../templates/heroes.template.html',
+    styleUrls: [ '../styles/heroes.component.css' ]
 })
 export class HeroesComponent implements OnInit {
     heroes: Hero[];
