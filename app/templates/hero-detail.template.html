@@ -1,4 +1,6 @@
-<div *ngIf="hero">
+<h3 class="text-center">Hero Details Page</h3>
+<div class="row">
+<div class="col-xs-4 col-xs-offset-4" *ngIf="hero">
     <h2>{{hero.name}} details!</h2>
     <div>
         <label>id: </label>{{hero.id}}</div>
@@ -7,4 +9,5 @@
         <input [(ngModel)]="hero.name" placeholder="name" />
     </div>
     <button (click)="goBack()">Back</button>
+</div>
 </div>

@@ -11,9 +11,18 @@
     "suppressImplicitAnyIndexErrors": true,
     "outDir": "dist"
   },
+  "compileOnSave": false,
+  "buildOnSave": false,
   "exclude": [
     "node_modules",
     "typings/main",
     "typings/main.d.ts"
-  ]
+  ],
+  "filesGlob": [
+    "app/**/*.ts",
+    "typings/browser.d.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": false
+  }
 }

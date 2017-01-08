@@ -45,6 +45,12 @@
     margin-right: .8em;
     border-radius: 4px 0 0 4px;
 }
+.heroes .p-l-30 {
+    padding-left: 30px;
+}
+.m-l-50{
+    margin-left: 50px;
+}
 button {
     font-family: Arial;
     background-color: #eee;
