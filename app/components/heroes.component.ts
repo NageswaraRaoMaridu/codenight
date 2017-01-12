@@ -8,10 +8,9 @@ import { Hero } from '../beans/hero';
 import { HeroService } from '../services/hero.service';
 
 @Component({
-    moduleId: module.id,
     selector: 'my-heroes',
-    templateUrl: '../templates/heroes.template.html',
-    styleUrls: [ '../styles/heroes.component.css' ]
+    templateUrl: 'app/templates/heroes.template.html',
+    styleUrls: [ 'app/styles/heroes.component.css' ]
 })
 export class HeroesComponent implements OnInit {
     heroes: Hero[];

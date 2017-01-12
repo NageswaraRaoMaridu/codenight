@@ -7,10 +7,9 @@ import {Component, OnInit} from "@angular/core";
 
 
 @Component({
-    moduleId : module.id,
     selector : 'header-section',
-    templateUrl : '../templates/header.template.html',
-    styleUrls : ['../styles/header.css']
+    templateUrl : 'app/templates/header.template.html',
+    styleUrls : ['app/styles/header.css']
 })
 export class HeaderComponent implements OnInit{
     ngOnInit(){

@@ -11,10 +11,9 @@ import { Location }               from '@angular/common';
 import { Hero }         from '../beans/hero';
 import { HeroService }  from '../services/hero.service';
 @Component({
-    moduleId: module.id,
     selector: 'my-hero-detail',
-    templateUrl: '../templates/hero-detail.template.html',
-    styleUrls: [ '../styles/hero-detail.component.css' ]
+    templateUrl: 'app/templates/hero-detail.template.html',
+    styleUrls: [ 'app/styles/hero-detail.component.css' ]
 })
 export class HeroDetailComponent implements OnInit {
     hero: Hero;

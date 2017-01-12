@@ -8,10 +8,8 @@ import { Hero } from '../beans/hero';
 import { HeroService } from '../services/hero.service';
 
 @Component({
-    moduleId: module.id,
     selector: 'my-dashboard',
-    templateUrl: '../templates/dashboard.template.html',
-    styleUrls: [ '../styles/dashboard.component.css' ]
+    templateUrl: 'app/templates/dashboard.template.html'
 })
 export class DashboardComponent implements OnInit {
 

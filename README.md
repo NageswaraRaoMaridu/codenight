@@ -36,3 +36,10 @@ Core-js : is a ES6 polyfill for typescript.
 
 @Component annotation above in a component declaration is called as the class decorator it provides the Metadata about the component. Angular uses this Metadata to create the view.
 
+
+
+WebPack Configuration:
+
+$(npm bin)/webpack --display-error-details
+$(npm bin)/webpack --progress
+
