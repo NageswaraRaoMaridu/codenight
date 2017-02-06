@@ -1,6 +1,13 @@
 # codenight
 The Intention of this project is to explain the Angular 2 practically.
 
+How to Run this:
+
+1. Clone and pull this repository
+2. run the command "npm install" to install the dependencies
+3. run the command "npm run serve" to start the application
+4. Access the url "localhost:8080" to access the application
+
 Here I have used Typescript for coding the application. TypeScript is a superset of JavaScript. It extends the Javascript and brings options like static typing, classes, interfaces. That means the JavaScript code is understood by the TypeScript. You can Take any JavaScript File and change the extension to .ts and run it through the TypeScript parser, and it will be able to understand. One of the most prominent features of the TypeScript is its optional typing system. Utilizing the types however makes the code clean and can be easily understandeable. Another important feature of typescript is its "interfaces" which can be used as types throughout the application.
 
 ex : interface SampleType {
